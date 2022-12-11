@@ -1,0 +1,18 @@
+Sending files from desktop to github using Git
+1  git init -b main
+2  git remote add origin ____________link________
+3  git remote -v
+
+4 git add .
+5  git commit -m " __________"
+6  git push -u origin main
+
+7  git pull --rebase origin main
+8  git push origin main
+
+
+Change repo
+
+1 git fetch origin
+2 git rebase origin/main
+3 git checkout master
