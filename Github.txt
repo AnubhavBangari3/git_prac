@@ -16,3 +16,10 @@ Change repo
 1 git fetch origin
 2 git rebase origin/main
 3 git checkout master
+
+
+Update commit
+
+1  git add .
+2  git commit -m "___________"
+3  git push origin main
